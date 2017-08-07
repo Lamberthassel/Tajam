@@ -8,18 +8,36 @@
     <title>Tajam</title>
   </head>
   <body>
-    <header>
+    <header class="index-header">
       <div class="container">
-        <img src="img/logo--small.png" class="logo--small" alt="logo">
+        <div class="logo">
+          <a class="logo__link" href=#>
+            <img src="img/logo-small.png" class="logo__img" alt="logo">
+          </a>
+        </div>
         <nav class="header-menu">
-          <ul>
-            <li><a class="header-menu__item" href=#>Home</a></li>
-            <li><a class="header-menu__item" href=#>About</a></li>
-            <li><a class="header-menu__item" href=#>Expertise</a></li>
-            <li><a class="header-menu__item" href=#>Teams</a></li>
-            <li><a class="header-menu__item" href=#>Works</a></li>
-            <li><a class="header-menu__item" href=#>People say</a></li>
-            <li><a class="header-menu__item" href=#>Contact</a></li>
+          <ul class="header-menu__list">
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Home</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>About</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Expertise</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Teams</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Works</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>People say</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -347,26 +365,35 @@
         </div>
       </div>
     </main>
-    <footer class="footer">
+    <footer class="index-footer">
       <div class="container">
-        <div class="footer__col">
-          <img src="img/footer__logo.png" class="footer__logo" alt="logo">
-          <span class="tajam">Tajam</span>
+        <div class="col">
+          <div class="logo">
+            <a class="logo__link" href=#>
+              <img src="img/logo-small.png" class="logo__img" alt="logo">
+            </a>
+          </div>
           <p>
             lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
             sem nibh elit. Duis sed odio sit amet auctror a ornare odio non
             mauris vitae erat in elit
           </p>
-          <nav class="footer__menu">
+          <nav class="footer-menu">
             <ul>
-              <li class="footer__item"><a href=#>Help</a></li>
-              <li class="footer__item"><a href=#>Terms and conditions</a></li>
-              <li class="footer__item"><a href=#>Privacy</a></li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href=#>Help</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href=#>Terms and conditions</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href=#>Privacy</a><
+                /li>
             </ul>
           </nav>
         </div>
-        <div class="footer__col">
-          <h3 class="footer__title">Our Studio</h3>
+        <div class="col">
+          <h3 class="footer-title">Our Studio</h3>
           <p class="address">
             Ruko cucruk,
             Jl. Radio luar dalem jos No.12 - 13,
@@ -377,8 +404,8 @@
             (+62) 21-2224 3333
           </p>
         </div>
-        <div class="footer__col">
-          <h3 class="footer__title">Stay in touch</h3>
+        <div class="col">
+          <h3 class="footer-title">Stay in touch</h3>
           <form id="subscribe-form" action="#" method="post">
             <input type="email" name="email" id="email" placeholder="Subscribe our newsletter">
             <button class="subscribe-form__btn" type="submit">Subscribe</button>
