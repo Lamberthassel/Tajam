@@ -5,10 +5,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700,900|Roboto:100,300,400,900" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Tajam</title>
   </head>
   <body>
-    <div class="intro">
+    <div class="intro overlay">
       <header class="index-header">
         <div class="container">
           <div class="logo">
@@ -44,88 +45,118 @@
         </div>
       </header>
       <section class="about">
-        <div class="container">
+        <div class="container ">
           <h2 class="about__heading">We Are Awesome Creative Agency</h2>
           <hr class="about__divider">
           <p class="about__text">
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
             vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
             auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
             Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
             Morbi accumsan ipsum velit.
           </p>
-          <a class="btn" href=#>Learn more</a>
+          <a class="btn about__btn" href=#>Learn more</a>
+          <div class="screen-selector js">
+            <ul>
+              <li>
+                <input type="radio" name="about-screen" id="screen-1" checked>
+                <label for="screen-1"><div class="checkbox"></div></label>
+              </li>
+              <li>
+                <input type="radio" name="about-screen" id="screen-2">
+                <label for="screen-2"><div class="checkbox"></div></label>
+              </li>
+              <li>
+                <input type="radio" name="about-screen" id="screen-3">
+                <label for="screen-3"><div class="checkbox"></div></label>
+              </li>
+              <li>
+                <input type="radio" name="about-screen" id="screen-4">
+                <label for="screen-4"><div class="checkbox"></div></label>
+              </li>
+            </ul>
+          </div>
         </div>
-        </section>
-      </div>
+      </section>
+    </div>
     <main>
       <section class="story">
         <div class="container">
-          <img src="img/logo-large.png" class="logo-large" width="235" height="229" alt="logo">
-          <h2>Our story</h2>
-          <p>
-            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh
-            vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-            auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-            Duis sed odio sit amet nibh vulputate cursus
-            <br>
-            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
-            a ornare odio. Sed non  mauris vitae erat consequat auctor eu in
-            elit. Class aptent taciti sociosqu ad litora torquent per conubia
-            nostra, per inceptos himenaeos.
-          </p>
-          <a class="btn" href=#>Learn more</a>
+          <div class="logo-large">
+            <img src="img/logo-large.png" width="235" height="229" alt="logo">
+          </div>
+          <article class="story__article">
+            <h2 class="story__title">Our story</h2>
+            <p class="story__text">
+              This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh
+              vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+              auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
+              Duis sed odio sit amet nibh vulputate cursus
+              <br><br>
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor
+              a ornare odio. Sed non  mauris vitae erat consequat auctor eu in
+              elit. Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos.
+            </p>
+            <a class="btn" href=#>Learn more</a>
+          </article>
         </div>
       </section>
-      <section class="video">
+      <section class="video overlay">
         <div class="container">
           <div class="video__embed"></div>
         </div>
       </section>
       <section class="expertise">
         <div class="container">
-          <h2>Expertise</h2>
-          <p class="subtitle">
+          <h2 class="expertise__title">Expertise</h2>
+          <p class="expertise__subtitle">
             Lorem ipsum dolor sit amet proin gravida nibh vel velit
           </p>
-          <hr>
+          <hr class="expertise__divider">
           <article class="feature">
-            <article class="feature__item feature__item--webdev">
-              <h3 class="feature__title">Web Design and Development</h3>
+            <article class="feature__item">
+              <div class="feature__ico feature__ico--webdev"></div>
+              <h3 class="feature__title">Web Design &amp; Development</h3>
               <p class="feature__text">
                 This is Photoshop's version of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet Aenean.
               </p>
             </article>
-            <article class="feature__item feature__item--art">
+            <article class="feature__item">
+              <div class="feature__ico feature__ico--art"></div>
               <h3 class="feature__title">Branding Identity</h3>
               <p class="feature__text">
                 This is Photoshop's version of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet Aenean.
               </p>
             </article>
-            <article class="feature__item feature__item--mobile">
+            <article class="feature__item">
+              <div class="feature__ico feature__ico--mobile"></div>
               <h3 class="feature__title">Mobile App</h3>
               <p class="feature__text">
                 This is Photoshop's version of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet Aenean.
               </p>
             </article>
-            <article class="feature__item feature__item--seo">
+            <article class="feature__item">
+              <div class="feature__ico feature__ico--seo"></div>
               <h3 class="feature__title">Search Engine Optimization</h3>
               <p class="feature__text">
                 This is Photoshop's version of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet Aenean.
               </p>
             </article>
-            <article class="feature__item feature__item--gamedev">
+            <article class="feature__item">
+              <div class="feature__ico feature__ico--gamedev"></div>
               <h3 class="feature__title">Game Development</h3>
               <p class="feature__text">
                 This is Photoshop's version of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet Aenean.
               </p>
             </article>
-            <article class="feature__item feature__item--love">
+            <article class="feature__item">
+              <div class="feature__ico feature__ico--love"></div>
               <h3 class="feature__title">Made with Love</h3>
               <p class="feature__text">
                 This is Photoshop's version of Lorem Ipsum.
@@ -135,117 +166,127 @@
           </article>
         </div>
       </section>
-      <section class="team">
+      <section class="team overlay">
         <div class="container">
-          <h2>Meet our amazing team</h2>
-          <p class="subtitle">
+          <h2 class="team__title">Meet our amazing team</h2>
+          <p class="team__subtitle">
             Lorem ipsum dolor sit amet proin
             gravida nibh vel velit
           </p>
-          <hr>
+          <hr class="team__divider">
           <article class="staff">
             <article class="staff__item">
-              <img src="img/staff/ucuk.jpg" class="staff__photo" width="220" height="229" alt="Semf Ucuk">
+              <div class="staff__photo-wrapper">
+                <img src="img/staff/ucuk.jpg" class="staff__photo" width="220" height="229" alt="Semf Ucuk">
+              </div>
               <span class="staff__name">Semf Ucuk</span>
-              <span class="staff__job">CEO and founder</span>
+              <span class="staff__job">CEO &amp; founder</span>
             </article>
             <article class="staff__item">
-              <img src="img/staff/dik.jpg" class="staff__photo" width="220" height="229" alt="Dik Adalin">
+              <div class="staff__photo-wrapper">
+                <img src="img/staff/dik.jpg" class="staff__photo" width="220" height="229" alt="Dik Adalin">
+              </div>
               <span class="staff__name">Dik Adalin</span>
               <span class="staff__job">Engineering</span>
             </article>
             <article class="staff__item">
-              <img src="img/staff/jeng.jpg" class="staff__photo" width="220" height="229" alt="Jeng Kol">
+              <div class="staff__photo-wrapper">
+                <img src="img/staff/jeng.jpg" class="staff__photo" width="220" height="229" alt="Jeng Kol">
+              </div>
               <span class="staff__name">Jeng Kol</span>
               <span class="staff__job">Designer</span>
             </article>
             <article class="staff__item">
-              <img src="img/staff/pet.jpg" class="staff__photo" width="220" height="229" alt="Pet Romak">
+              <div class="staff__photo-wrapper">
+                <img src="img/staff/pet.jpg" class="staff__photo" width="220" height="229" alt="Pet Romak">
+              </div>
               <span class="staff__name">Pet Romak</span>
               <span class="staff__job">Marketing</span>
             </article>
           </article>
-          <p>
+          <p class="team__text">
             Become part of our dream team, let’s join us!
           </p>
-          <a class="btn" href=#>We are hiring</a>
+          <a class="btn team__btn" href=#>We are hiring</a>
         </div>
       </section>
       <section class="works">
         <div class="container">
-          <h2>Our works</h2>
-          <a class="dribble-link" href=#>See All Projects in dribble</a>
+          <h2 class="works__title">Our works</h2>
+          <a class="works__link--dribble" href=#>See All Project in dribbble</a>
         </div>
         <div class="gallery">
           <ul class="gallery__list">
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/1.jpg" width="267" height="200" alt="work 1">
+                <img class="gallery__img" src="img/works/1.jpg" alt="work 1">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/2.jpg" width="267" height="200" alt="work 2">
+                <img class="gallery__img" src="img/works/2.jpg" alt="work 2">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/3.jpg" width="267" height="200" alt="work 3">
+                <img class="gallery__img" src="img/works/3.jpg" alt="work 3">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/4.jpg" width="267" height="200" alt="work 4">
+                <img class="gallery__img" src="img/works/4.jpg" alt="work 4">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/5.jpg" width="267" height="200" alt="work 5">
+                <img class="gallery__img" src="img/works/5.jpg" alt="work 5">
               </a>
             </li>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/6.jpg" width="267" height="200" alt="work 6">
+                <img class="gallery__img" src="img/works/6.jpg" alt="work 6">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/7.jpg" width="267" height="200" alt="work 7">
+                <img class="gallery__img" src="img/works/7.jpg" alt="work 7">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/8.jpg" width="267" height="200" alt="work 8">
+                <img class="gallery__img" src="img/works/8.jpg" alt="work 8">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/9.jpg" width="267" height="200" alt="work 9">
+                <img class="gallery__img" src="img/works/9.jpg" alt="work 9">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/10.jpg" width="267" height="200" alt="work 10">
+                <img class="gallery__img" src="img/works/10.jpg" alt="work 10">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/11.jpg" width="267" height="200" alt="work 11">
+                <img class="gallery__img" src="img/works/11.jpg" alt="work 11">
               </a>
             </li>
             <li class="gallery__item">
               <a class="gallery__link" href=#>
-                <img class="gallery__img" src="img/works/12.jpg" width="267" height="200" alt="work 12">
+                <img class="gallery__img" src="img/works/12.jpg" alt="work 12">
               </a>
             </li>
           </ul>
         </div>
-        <a class="btn" href=#>Load more</a>
-      </section>
-      <section class="testimonials">
         <div class="container">
-          <b class="quote-symbol">"</b>
+          <a class="btn works__btn" href=#>Load more</a>
+        </div>
+      </section>
+      <section class="testimonials overlay">
+        <div class="container">
+          <div class="quote-symbol"></div>
           <article class="quotes">
             <article class="quotes__item">
               <p class="quotes__text">
@@ -258,10 +299,12 @@
                 a ornare odio. Sed non  mauris vitae erat consequat
                 auctor eu in elit.
               </p>
-              <div class="quotes__author">
+              <div class="quotes__info">
                 <img class="quotes__userpic" src="img/authors/1.jpg" alt="Mary Smith">
-                <span class="quotes__name">Mary Smith</span>
-                <span class="quotes__job">Designer Funnypic</span>
+              <div class="quotes__author">
+                  <span class="quotes__name">Mary Smith</span>
+                  <span class="quotes__job">Designer Funnypic</span>
+                </div>
               </div>
             </article>
             <article class="quotes__item">
@@ -275,10 +318,12 @@
                 a ornare odio. Sed non  mauris vitae erat consequat
                 auctor eu in elit.
               </p>
-              <div class="quotes__author">
+              <div class="quotes__info">
                 <img class="quotes__userpic" src="img/authors/2.jpg" alt="John Fanneren">
-                <span class="quotes__name">John Fanneren</span>
-                <span class="quotes__job">Freelancer</span>
+              <div class="quotes__author">
+                  <span class="quotes__name">John Fanneren</span>
+                  <span class="quotes__job">Freelancer</span>
+                </div>
               </div>
             </article>
           <article class="quotes__item quotes__item--active">
@@ -292,10 +337,12 @@
               a ornare odio. Sed non  mauris vitae erat consequat
               auctor eu in elit.
             </p>
-            <div class="quotes__author">
+            <div class="quotes__info">
               <img class="quotes__userpic" src="img/authors/3.jpg" alt="Jane Galadriel">
-              <span class="quotes__name">Jane Galadriel</span>
-              <span class="quotes__job">CEO Tengkurep</span>
+              <div class="quotes__author">
+                <span class="quotes__name">Jane Galadriel</span>
+                <span class="quotes__job">CEO Tengkurep</span>
+              </div>
             </div>
           </article>
             <article class="quotes__item">
@@ -309,10 +356,12 @@
               a ornare odio. Sed non  mauris vitae erat consequat
               auctor eu in elit.
             </p>
-            <div class="quotes__author">
+            <div class="quotes__info">
               <img class="quotes__userpic" src  ="img/authors/4.jpg" alt="Holly Campbell">
-              <span class="quotes__name">Holly Campbell</span>
-              <span class="quotes__job">CEO Postdesign</span>
+              <div class="quotes__author">
+                <span class="quotes__name">Holly Campbell</span>
+                <span class="quotes__job">CEO Postdesign</span>
+              </div>
             </div>
           </article>
           <article class="quotes__item">
@@ -326,10 +375,12 @@
               a ornare odio. Sed non  mauris vitae erat consequat
               auctor eu in elit.
               </p>
-            <div class="quotes__author">
+            <div class="quotes__info">
               <img class="quotes__userpic" src="img/authors/5.jpg" alt="Dennis Willson">
-              <span class="quotes__name">Dennis Willson</span>
-              <span class="quotes__job">SEO Engineer Webfoxes</span>
+              <div class="quotes__author">
+                <span class="quotes__name">Dennis Willson</span>
+                <span class="quotes__job">SEO Engineer Webfoxes</span>
+              </div>
             </div>
           </article>
         </div>
@@ -337,34 +388,54 @@
       <div class="contact">
         <div class="container">
           <section class="feedback">
-            <h2>Give us a good news</h2>
-            <form id="feedback__form" action="#" method="post">
+            <h2 class="feedback__title">Give us a good news</h2>
+            <form id="feedback__form" class="feedback__form" action="#" method="post">
               <input type="text" name="name" id="name" placeholder="Name" tabindex="1">
               <input type="email" name="email" id="email" placeholder="Email" tabindex="2">
               <input type="text" name="subject" id="subject" placeholder="Subject" tabindex="3">
-              <input rows="8" name="message" id="message" placeholder="Your message" tabindex="4">
-              <button class="btn" type="submit">Submit</button>
+              <textarea rows="8" name="message" id="message" placeholder="Your message" tabindex="4"></textarea>
+              <button class="btn feedback__btn" type="submit">Submit</button>
             </form>
           </section>
           <section class="client">
             <h2 class="client__title">Our happy client</h2>
             <ul class="client__list">
-              <li><a class="client__item client__item--zara" href=#>Zara</a></li>
-              <li><a class="client__item client__item--mango" href=#>Mango</a></li>
-              <li><a class="client__item client__item--barneys" href=#>Barneys Newyork</a></li>
-              <li><a class="client__item client__item--guccy" href=#>Guccy</a></li>
-              <li><a class="client__item client__item--klein" href=#>Calvin Klein</a></li>
-              <li><a class="client__item client__item--nike" href=#>Nike</a></li>
-              <li><a class="client__item client__item--converse" href=#>Converse</a></li>
-              <li><a class="client__item client__item--puma" href=#>Puma</a></li>
-              <li><a class="client__item client__item--levis" href=#>Levi's</a></li>
-              <li><a class="client__item client__item--billabong" href=#>Billa Bong</a></li>
+              <li class="client__item">
+                <a class="client__link client__link--zara" href=# title="Zara"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--mango" href=# title="Mango"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--barneys" href=# title="Barneys Newyork"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--gucci" href=# title="Gucci"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--klein" href=# title="Calvin Klein"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--nike" href=# title="Nike"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--converse" href=# title="Converse"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--puma" href=# title="Puma"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--levis" href=# title="Levi's"></a>
+              </li>
+              <li class="client__item">
+                <a class="client__link client__link--billabong" href=# title="Billa Bong"></a>
+              </li>
             </ul>
           </section>
         </div>
       </div>
     </main>
-    <footer class="index-footer">
+    <footer class="index-footer overlay">
       <div class="container">
         <div class="col">
           <div class="logo">
@@ -377,19 +448,6 @@
             sem nibh elit. Duis sed odio sit amet auctror a ornare odio non
             mauris vitae erat in elit
           </p>
-          <nav class="footer-menu">
-            <ul class="footer-menu__list">
-              <li class="footer-menu__item">
-                <a class="footer-menu__link" href=#>Help</a>
-              </li>
-              <li class="footer-menu__item">
-                <a class="footer-menu__link" href=#>Terms and conditions</a>
-              </li>
-              <li class="footer-menu__item">
-                <a class="footer-menu__link" href=#>Privacy</a><
-                /li>
-            </ul>
-          </nav>
         </div>
         <div class="col">
           <h3 class="footer-title">Our Studio</h3>
@@ -405,9 +463,11 @@
         </div>
         <div class="col">
           <h3 class="footer-title">Stay in touch</h3>
-          <form id="subscribe-form" action="#" method="post">
+          <form class="subscribe-form" id="subscribe-form" action="#" method="post">
             <input class="subscribe-form__input" type="email" name="email" id="email" placeholder="Subscribe our newsletter">
-            <button class="subscribe-form__btn" type="submit">Subscribe</button>
+            <button class="subscribe-form__btn" type="submit">
+              <div class="subscribe-form__ico"></div>
+            </button>
           </form>
           <div class="soc">
             <a class="soc__item soc__item--fb" href=#>Facebook</a>
@@ -417,8 +477,21 @@
             <a class="soc__item soc__item--g" href=#>Google+</a>
             <a class="soc__item soc__item--yt" href=#>YouTube</a>
           </div>
-          <p>Copyright © 2015 - Tajem Creative</p>
         </div>
+        <nav class="footer-menu">
+          <ul class="footer-menu__list">
+            <li class="footer-menu__item">
+              <a class="footer-menu__link" href=#>Help</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="footer-menu__link" href=#>Terms &amp; condition</a>
+            </li>
+            <li class="footer-menu__item">
+              <a class="footer-menu__link" href=#>Privacy</a>
+              </li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright © 2015 - Tajem Creative</p>
       </div>
     </footer>
   </body>
