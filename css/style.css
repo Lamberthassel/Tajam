@@ -546,7 +546,7 @@ textarea {
 
 .contact .container {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -587,6 +587,12 @@ textarea {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+}
+
+@media (max-width: 340px) {
+    .client__list  {
+        justify-content: center;
+    }
 }
 
 .client__item {
