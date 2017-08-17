@@ -1,5 +1,5 @@
 .container {
-  width: 940px;
+  max-width: 940px;
   margin: auto;
   padding: 70px 10px;
 }
@@ -95,6 +95,10 @@ textarea {
   min-height: 670px;
 }
 
+.logo {
+  margin-right: 50px;
+}
+
 .index-header .container {
   min-height: 80px;
   padding: 0 10px;
@@ -115,19 +119,21 @@ textarea {
 
 .header-menu__list {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+.header-menu__item {
+  padding: 20px 0;
 }
 
 .header-menu__link {
   padding: 20px 10px;
   text-decoration: none;
   color: #ffffff;
-}
-
-.header-menu__item:last-child .header-menu__link {
-  padding-right: 0;
 }
 
 .header-menu__link:hover {
@@ -221,14 +227,6 @@ textarea {
   flex-flow: row wrap;
 }
 
-.story__title {
-  margin-top: 0px;
-}
-
-.story__text {
-  margin-bottom: 30px;
-}
-
 .logo-large {
   width: 380px;
   margin-right: 20px;
@@ -237,6 +235,14 @@ textarea {
 
 .story__article {
   flex: 1;
+}
+
+.story__title {
+  margin-top: 0px;
+}
+
+.story__text {
+  margin-bottom: 30px;
 }
 
 .video {
@@ -249,8 +255,7 @@ textarea {
 }
 
 .expertise__title {
-  margin-top: 0;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 
 .expertise__subtitle {
@@ -266,22 +271,20 @@ textarea {
 .feature {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: space-between;
 }
 
 .feature__item {
-  max-width: 31.91%;
+  min-width: 300px;
+  flex: 0;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .feature__ico {
   margin: auto;
   margin-bottom: 30px;
-  background-image: url("../img/icons/feature__sprite.png");
-  background-repeat: no-repeat;
+  background: url("../img/icons/feature__sprite.png") no-repeat;
 }
 
 .feature__ico--webdev {
@@ -365,10 +368,9 @@ textarea {
 }
 
 .staff {
+  width: 940px;
   display: flex;
   flex-flow: row wrap;
-  width: 100%;
-  align-items: center;
   justify-content: space-between;
   margin-bottom: 70px;
 }
@@ -458,7 +460,7 @@ textarea {
 }
 
 .gallery__item {
-  flex: 1 1;
+  flex: 1;
 }
 
 .gallery__link {
