@@ -126,7 +126,7 @@ textarea {
   display: none;
 }
 .header-menu__btn + label{
-  display: block; 
+  display: none; 
   cursor: pointer;
 }
 .header-menu__btn + label:before {
