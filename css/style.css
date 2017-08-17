@@ -499,8 +499,12 @@ textarea {
   right: 0;
 }
 
-.quotes__item:not(:first-child) {
+.quotes__item {
   display: none;
+}
+
+.quotes__item--active {
+  display: block;
 }
 
 .quotes__text {
