@@ -445,7 +445,7 @@ textarea {
   height: 8px;
   transform: rotate(-45deg);
   position: absolute;
-  right: 0;
+  right: 2px;
   top: 3px;
 }
 
