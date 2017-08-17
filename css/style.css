@@ -196,7 +196,10 @@ textarea {
 }
 
 .promo__item--active {
-  display: block;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .promo__heading {
