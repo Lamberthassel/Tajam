@@ -91,7 +91,8 @@ textarea {
 .intro {
   display: flex;
   flex-direction: column;
-  background: url("../img/bg/about__bg.jpg");
+  background: url("../img/bg/about__bg.jpg") no-repeat;
+  background-size: cover;
   min-height: 670px;
 }
 
@@ -246,7 +247,8 @@ textarea {
 }
 
 .video {
-  background: url("../img/bg/video__bg.jpg");
+  background: url("../img/bg/video__bg.jpg") no-repeat;
+  background-size: cover;
   min-height: 550px;
 }
 
@@ -336,7 +338,8 @@ textarea {
 }
 
 .team {
-  background: url("../img/bg/team__bg.jpg");
+  background: url("../img/bg/team__bg.jpg") no-repeat;
+  background-size: cover;
   min-height: 712px;
   text-align: center;
   display: flex;
@@ -474,7 +477,8 @@ textarea {
 }
 
 .testimonials {
-  background: url("../img/bg/testimonials__bg.jpg");
+  background: url("../img/bg/testimonials__bg.jpg") no-repeat;
+  background-size: cover;
   min-height: 500px;
   text-align: center;
   display: flex;
@@ -671,7 +675,8 @@ textarea {
 }
 
 .index-footer {
-  background: url("../img/bg/footer__bg.jpg");
+  background: url("../img/bg/footer__bg.jpg") no-repeat;
+  background-size: cover;
   min-height: 400px;
   display: flex;
   flex-flow: column nowrap;
