@@ -256,10 +256,6 @@ textarea {
   margin: auto;
 }
 
-.story__article {
-
-}
-
 .story__title {
   margin-top: 0px;
 }
@@ -901,6 +897,9 @@ input.subscribe-form__input {
   .feature  {
         justify-content: center;
     }
+  .gallery__item {
+    flex: 0;
+  }
 }
 
 @media (max-width: 960px) {
