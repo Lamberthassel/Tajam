@@ -482,11 +482,10 @@ textarea {
 }
 
 .gallery__item {
-  flex: 1;
+  flex: 1 1 240px;
 }
 
 .gallery__link {
-  min-width: 240px;
   display: block;
 }
 
@@ -897,9 +896,6 @@ input.subscribe-form__input {
   .feature  {
         justify-content: center;
     }
-  .gallery__item {
-    flex: 0;
-  }
 }
 
 @media (max-width: 960px) {
