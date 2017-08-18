@@ -97,7 +97,7 @@ textarea {
 }
 
 .logo {
-  margin: 20px 50px 0 0;
+  margin-right: 50px;
 }
 
 .index-header .container {
@@ -105,8 +105,8 @@ textarea {
   padding: 0 10px;
   display: flex;
   flex-flow: row nowrap;
-  align-items: flex-start;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header-menu {
@@ -116,7 +116,6 @@ textarea {
   line-height: 1.2;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
-  margin-top: 20px;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-end;
@@ -154,7 +153,6 @@ textarea {
 }
 
 .header-menu__item {
-  padding: 20px 0;
   display: flex;
 }
 
@@ -930,6 +928,11 @@ input.subscribe-form__input {
   .feature  {
         justify-content: center;
     }
+
+  .index-header .container {
+    padding-top: 10px;
+    align-items: flex-start;
+  }
 
   .header-menu__btn + label{
       display: inline-block;
