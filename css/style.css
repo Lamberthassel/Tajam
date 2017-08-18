@@ -323,7 +323,7 @@ textarea {
 .feature {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .feature__item {
@@ -736,7 +736,7 @@ textarea {
 }
 
 .index-footer .logo {
-  margin: 0 0 25px 0;
+  margin: 0 0 19px 0;
 }
 
 .index-footer h3 {
