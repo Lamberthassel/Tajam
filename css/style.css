@@ -619,6 +619,10 @@ textarea {
   margin-bottom: 21px;
 }
 
+.feedback__form textarea {
+  resize: none;
+}
+
 .feedback__btn {
   padding: 10px 30px;
 }
