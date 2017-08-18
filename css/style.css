@@ -22,13 +22,37 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #00e0d0;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn span {
+  position: relative;
+  z-index: 2;
+  transition: all .5s ease .2s;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #00e0d0;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 0;
+  transition: all .5s ease .2s;
+}
+
+.btn:hover span {
+  color: #ffffff;
   transition: all .5s ease;
 }
 
-.btn:hover {
-  border: 1px solid transparent;
+.btn:hover::after {
+  top: 0;
   color: #ffffff;
-  background: #00e0d0;
   transition: all .5s ease;
 }
 
@@ -295,14 +319,12 @@ textarea {
   width: 8px;
   height: 8px;
   border-radius: 100%;
-  transform: scale(0);
-  transition: transform .2s ease;
+  transition: all .5s ease-out;
 }
 
 .screen-selector input[type="radio"]:checked ~ label::before {
   background: #00e0d0;
-  transform: scale(1);
-  transition: transform .2s ease;
+  transition: all .5s ease-out;
 }
 
 .story .container {
@@ -459,12 +481,12 @@ textarea {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 .staff__item {
   text-align: center;
   transition: all .5s ease;
+  margin-bottom: 40px;
 }
 
 .staff__item:hover {
@@ -593,12 +615,12 @@ textarea {
 
 .quotes__item {
   display: none;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .quotes__item--active {
   display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 
 .quote-symbol::after {
