@@ -591,9 +591,14 @@ textarea {
   flex-flow: column nowrap;
 }
 
-.quote-symbol {
-  height: 70px;
-  position: relative;
+.quotes__item {
+  display: none;
+}
+
+.quotes__item--active {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .quote-symbol::after {
@@ -603,20 +608,6 @@ textarea {
   font-size: 100px;
   line-height: 63px;
   font-family: "Playfair Display", "Arial", sans-serif;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-.quotes__item {
-  display: none;
-}
-
-.quotes__item--active {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
 }
 
 .quotes__text {
