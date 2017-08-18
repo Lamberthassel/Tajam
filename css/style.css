@@ -452,18 +452,30 @@ textarea {
 
 .team__divider {
   background-color: #ffffff;
-  margin: 0 auto 40px;
+  margin: 0 auto 70px;
 }
 
 .staff {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .staff__item {
   text-align: center;
+  transition: all .5s ease;
+}
+
+.staff__item:hover {
+  transform: scale(1.2);
+  transition: all .5s ease;
+}
+
+.staff__item:hover .staff__name, 
+.staff__item:hover .staff__job {
+  opacity: 1;
+  transition: all .5s ease;
 }
 
 .staff__photo-wrapper {
@@ -480,16 +492,19 @@ textarea {
 
 .staff__name {
   display: block;
+  opacity: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
   margin-bottom: 6px;
+  transition: all .5s ease;
 }
 
 .staff__job {
   display: block;
+  opacity: 0;
   font-weight: 100;
   font-size: 13px;
   line-height: 1.2;
@@ -497,6 +512,7 @@ textarea {
   text-transform: uppercase;
   color: #fafafa;
   margin-bottom: 20px;
+  transition: all .5s ease;
 }
 
 .team__text {
