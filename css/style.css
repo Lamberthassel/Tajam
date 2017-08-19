@@ -395,7 +395,7 @@ textarea {
 
 .feature__ico {
   margin: auto;
-  flex: 1;
+  flex: 1 0 50px;
   margin-bottom: 20px;
   background: url("../img/icons/feature__sprite.png") no-repeat;
 }
