@@ -56,6 +56,10 @@
   transition: all .15s ease;
 }
 
+:active, :hover, :focus {
+    outline-color: #00e0d0;
+}
+
 p {
   max-width: 780px;
   margin: auto;
