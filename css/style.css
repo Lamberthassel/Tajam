@@ -1064,3 +1064,29 @@ input.subscribe-form__input {
     flex-basis: 100%;
    }
  }
+
+ @media all and (-ms-high-contrast:none) {
+     .overlay, .about, .about .container {
+      display: block;
+     }
+
+     .about {
+      text-align: center;
+     }
+
+     .promo__item {
+      margin: 97px 0;
+     }
+
+     .staff__item {
+      margin: 0 20px 30px;
+     }
+
+     .staff__photo-wrapper {
+      width: auto;
+     }
+
+     .footer-menu__item {
+      padding: 0;
+     }
+}
