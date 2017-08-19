@@ -493,13 +493,6 @@ textarea {
   transform: scale(1.2);
   transition: all .5s ease;
 }
-
-.staff__item:hover .staff__name, 
-.staff__item:hover .staff__job {
-  opacity: 1;
-  transition: all .5s ease;
-}
-
 .staff__photo-wrapper {
   width: 220px;
   height: 229px;
@@ -514,7 +507,6 @@ textarea {
 
 .staff__name {
   display: block;
-  opacity: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -526,7 +518,6 @@ textarea {
 
 .staff__job {
   display: block;
-  opacity: 0;
   font-weight: 100;
   font-size: 13px;
   line-height: 1.2;
