@@ -547,27 +547,25 @@ textarea {
   object-fit: scale-down;
 }
 
-.staff__name {
-  display: block;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  font-family: "Roboto", "Arial", sans-serif;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-  transition: all .5s ease;
-}
-
-.staff__job {
-  display: block;
+.staff__item {
   font-weight: 100;
   font-size: 13px;
   line-height: 1.2;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
-  color: #fafafa;
-  margin-bottom: 20px;
   transition: all .5s ease;
+}
+
+.staff__name {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.staff__job {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .team__text {
@@ -681,6 +679,14 @@ textarea {
   margin-bottom: 50px;
 }
 
+.quotes__author {
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 1.2;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+
 .quotes__userpic-wrapper {
   width: 70px;
   height: 70px;
@@ -698,20 +704,11 @@ textarea {
   display: block;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
-  font-family: "Roboto", "Arial", sans-serif;
-  text-transform: uppercase;
   margin-bottom: 6px;
 }
 
 .quotes__job {
   display: block;
-  font-weight: 100;
-  font-size: 13px;
-  line-height: 1.2;
-  font-family: "Roboto", "Arial", sans-serif;
-  text-transform: uppercase;
-  color: #fafafa;
 }
 
 .contact .container {
@@ -1106,7 +1103,9 @@ input.subscribe-form__input {
  }
 
  @media all and (-ms-high-contrast:none) {
-     .overlay, .about, .about .container {
+     .overlay, 
+     .about, 
+     .about .container {
       display: block;
      }
 
