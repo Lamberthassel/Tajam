@@ -1,7 +1,7 @@
 .container {
   max-width: 940px;
   margin: auto;
-  padding: 4.375% 10px;
+  padding: 4.375% 10px; /* 70px / 1600px */
 }
 
 .btn {
