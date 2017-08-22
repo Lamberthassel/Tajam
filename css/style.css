@@ -17,7 +17,7 @@
   text-align: center;
   font-weight: 400;
   font-size: 1rem; /* 16px / 16px */
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Hammersmith One", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -65,8 +65,8 @@ p {
   margin: auto;
   font-weight: 300;
   font-size: 0.875rem; /* 14px / 16px */
-  letter-spacing: 0.022rem; /* 0.875rem * 0.025em */
-  line-height: 1.5;
+  letter-spacing: 0.025em;
+  line-height: 1.5em;
   font-family: "Roboto", "Arial", sans-serif;
 }
 
@@ -79,8 +79,8 @@ hr {
 h2 {
   font-weight: 700;
   font-size: 1.375rem; /* 22px / 16px */
-  letter-spacing: 0.069rem; /* 1.375rem * 0.05em */
-  line-height: 1.2;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
   font-family: "Playfair Display", "Arial", sans-serif;
   text-transform: uppercase;
 }
@@ -88,8 +88,8 @@ h2 {
 h3 {
   font-weight: 700;
   font-size: 0.938rem; /* 15px / 16px */
-  letter-spacing: 0.047rem; /* 0.938rem * 0.05em */
-  line-height: 1.2;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
 }
@@ -165,8 +165,8 @@ textarea {
 .header-menu {
   font-weight: 900;
   font-size: 0.813rem; /* 13px / 16px */
-  letter-spacing: 0.02rem; /* 0.813rem * 0.025em */ 
-  line-height: 1.2;
+  letter-spacing: 0.025em;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
   display: flex;
@@ -263,7 +263,7 @@ textarea {
 .promo__heading {
   font-weight: 900;
   font-size: 2rem; /* 32px / 16px */
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Playfair Display", "Arial", sans-serif;
   text-transform: none;
   margin: 0;
@@ -372,7 +372,7 @@ textarea {
   display: block;
   font-weight: 400;
   font-size: 1rem; /* 16px / 16px */
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Hammersmith One", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
@@ -480,7 +480,7 @@ textarea {
 .feature__title {
   font-weight: 700;
   font-size: 0.875rem; /* 14px / 16px */
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
 }
@@ -550,7 +550,7 @@ textarea {
 .staff__item {
   font-weight: 100;
   font-size: 0.813rem; /* 13px / 16px */ 
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
   transition: all .5s ease;
@@ -592,7 +592,7 @@ textarea {
 .works__link--dribble {
   font-weight: 300;
   font-size: 0.825rem; /* 14px / 16px */
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -673,8 +673,8 @@ textarea {
 .quotes__text {
   font-weight: 400;
   font-size: 1rem; /* 16px / 16px */
-  line-height: 1.625rem; /* 26px / 16px */
-  letter-spacing: 0.025rem; /* 1rem * 0.025em */
+  line-height: 1.625em; /* 26px / 16px */
+  letter-spacing: 0.025em;
   font-family: "Playfair Display", "Arial", sans-serif;
   margin-bottom: 50px;
 }
@@ -682,7 +682,7 @@ textarea {
 .quotes__author {
   font-weight: 100;
   font-size: 0.813rem; /* 13px / 16px */
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
 }
@@ -1012,8 +1012,8 @@ input.subscribe-form__input {
 .footer-menu {
   font-weight: 400;
   font-size: 0.825rem; /* 14px / 16px */
-  letter-spacing: 0.021rem; /* 0.825rem * 0.025em */
-  line-height: 1.2;
+  letter-spacing: 0.025em;
+  line-height: 1.2em;
   font-family: "Roboto", "Arial", sans-serif;
   text-transform: uppercase;
 }
