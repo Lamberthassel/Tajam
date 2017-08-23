@@ -867,7 +867,7 @@ textarea {
   position: relative;
 }
 
-.address__icon. 
+.address__icon, 
 .tel__icon {
   display: block;
   position: absolute;
