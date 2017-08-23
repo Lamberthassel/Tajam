@@ -377,6 +377,7 @@ textarea {
   text-decoration: none;
   color: #ffffff;
   text-align: center;
+  transition: all .15s ease;
 }
 
 .video-btn__wrapper {
@@ -409,6 +410,11 @@ textarea {
   height: 50px;
   stroke: #ffffff;
   transition: all .15s ease;
+}
+
+.video-btn:hover {
+   color: #00e0d0;
+   transition: all .15s ease;
 }
 
 .video-btn:hover .video-btn__wrapper::after {
