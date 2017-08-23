@@ -367,7 +367,7 @@ textarea {
   align-items: center;
 }
 
-.video__link {
+.video-btn {
   display: block;
   font-weight: 400;
   font-size: 1rem; /* 16px / 16px */
@@ -379,26 +379,35 @@ textarea {
   text-align: center;
 }
 
-.video__icon {
+.video-btn__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  margin: 0 auto 30px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.video-btn__wrapper::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100px;
   height: 100px;
   border: 3px solid #ffffff;
   border-radius: 100%;
 }
 
-.video__icon::after {
-  content: 
-  url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+IDxwb2x5Z29uIHBvaW50cz0iMiwyIDIsNTIgNDUuMywyNyIgZmlsbD0idHJhbnNwYXJlbnQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvc3ZnPg==");
+.video-btn__icon {
   display: block;
   width: 54px;
   height: 54px;
-  position: absolute;
-  top: 25px;
-  left: 32px;
+  stroke="#ffffff";
 }
-
 .expertise {
   text-align: center;
 }
