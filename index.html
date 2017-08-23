@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700,900|Roboto:100,300,400,900" rel="stylesheet">
+    <link rel="import" href="img/icons/icon_sprite.svg">
     <title>Tajam</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -12,6 +13,11 @@
     <meta name="Keywords" content="Tajam, lorem, ipsum"> 
   </head>
   <body>
+    <script>
+      var sprite = document.querySelector('link[rel=import]');
+      var content = sprite.import.querySelector(':root');
+      document.body.appendChild(content.cloneNode(true));
+    </script>
     <div class="intro overlay">
       <header class="index-header">
         <div class="container">
@@ -499,6 +505,9 @@
         <div class="col footer-contacts">
           <h3 class="footer-title">Our Studio</h3>
           <p class="address">
+            <svg class="icon">
+              <use xlink:href="#icon--marker" />
+            </svg>
             Ruko cucruk,
             Jl. Radio luar dalem jos No.12 - 13,
             Kalideres - Jakarta Barat
