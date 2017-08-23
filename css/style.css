@@ -406,7 +406,7 @@ textarea {
   display: block;
   width: 54px;
   height: 54px;
-  stroke="#ffffff";
+  stroke: #ffffff;
 }
 .expertise {
   text-align: center;
