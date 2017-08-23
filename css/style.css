@@ -400,14 +400,27 @@ textarea {
   height: 100px;
   border: 3px solid #ffffff;
   border-radius: 100%;
+  transition: all .15s ease;
 }
 
 .video-btn__icon {
   display: block;
-  width: 39px;
-  height: 45px;
+  width: 43.3px;
+  height: 50px;
   stroke: #ffffff;
+  transition: all .15s ease;
 }
+
+.video-btn:hover .video-btn__wrapper::after {
+  border-color: #00e0d0;
+  transition: all .15s ease;
+}
+
+.video-btn:hover .video-btn__icon {
+  stroke: #00e0d0;
+  transition: all .15s ease;
+}
+
 .expertise {
   text-align: center;
 }

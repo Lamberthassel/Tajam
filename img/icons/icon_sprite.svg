@@ -45,8 +45,8 @@
   <path d="M0 6h28v6H0V6zm0 8h28v6H0v-6zm0 8h28v6H0v-6zM31 20l6-6 6 6z"/>
 </symbol>
 
-<symbol id="icon--play" viewBox="0 0 45.3 52">
-  <polygon points="2,2 2,52 45.3,27" fill="transparent" stroke-width="3" stroke-linejoin="round"/>
+<symbol id="icon--play" viewBox="0 0 86.6 100">
+  <polygon points="0,0 0,100 86.6,50" fill="transparent" stroke-width="3" stroke-linejoin="round"/>
 </symbol>
 
 </svg>
