@@ -390,7 +390,7 @@ textarea {
 
 .video__icon::after {
   content: 
-  url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+IDxwb2x5Z29uIHBvaW50cz0iMiwyIDIsNTIgNDUuMywyNyIgZmlsbD0idHJhbnNwYXJlbnQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvc3ZnPg==") no-repeat;
+  url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCI+IDxwb2x5Z29uIHBvaW50cz0iMiwyIDIsNTIgNDUuMywyNyIgZmlsbD0idHJhbnNwYXJlbnQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+IDwvc3ZnPg==");
   display: block;
   width: 54px;
   height: 54px;
@@ -911,10 +911,10 @@ input.subscribe-form__input {
   transition: all .5s ease;
 }
 
-.subscribe-form__ico {
+.subscribe-form__icon {
   width: 25px;
   height: 25px;
-  fill: #ffffff;
+  fill: #000000;
 }
 
 .soc__item {
