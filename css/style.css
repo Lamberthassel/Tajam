@@ -878,6 +878,12 @@ textarea {
   fill: #ffffff;
 }
 
+.address__icon:hover, 
+.tel__icon:hover {
+  fill: #00e0d0;
+}
+
+
 .subscribe-form {
   display: flex;
   margin-bottom: 10px;
@@ -906,10 +912,9 @@ input.subscribe-form__input {
 }
 
 .subscribe-form__ico {
-  content: 
-  url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NjkuMDM4IDQ2OS4wMzgiPg0KICA8cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNNDY1LjAyMyA0LjA4Yy0zLjktMy45LTkuOS01LTE0LjktMi44bC00NDIgMTkzLjdjLTQuNyAyLjEtNy44IDYuNi04LjEgMTEuN3MyLjQgOS45IDYuOCAxMi40bDE1NC4xIDg3LjQgOTEuNSAxNTUuN2MyLjQgNC4xIDYuOSA2LjcgMTEuNiA2LjdoLjhjNS4xLS4zIDkuNS0zLjQgMTEuNi04LjFsMTkxLjUtNDQxLjhjMi4yLTUuMSAxLjEtMTEtMi45LTE0Ljl6bS03MC4zIDUwLjlsLTIyNi4yIDIyNC43LTEyNC45LTcwLjggMzUxLjEtMTUzLjl6bS0xMzIuNSAzNzAuNmwtNzQuNS0xMjYuOSAyMjcuNS0yMjYtMTUzIDM1Mi45eiIvPg0KPC9zdmc+");
   width: 25px;
   height: 25px;
+  fill: #ffffff;
 }
 
 .soc__item {
