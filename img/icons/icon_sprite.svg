@@ -46,9 +46,8 @@
 </symbol>
 
 <symbol id="icon--play" viewBox="0 0 104 104">
-  <ellipse ry="50" rx="50" cy="52" cx="52" stroke-width="3" />
+  <ellipse ry="50" rx="50" cy="52" cx="52" stroke-width="3" fill="transparent" />
   <path transform="rotate(90 58.5,52)" d="m36.785708,71.000002l21.714289,-38.000006l21.714289,38.000006l-43.428578,0z" stroke-width="3" />
-  <line y2="-163" x2="517.5" y1="-163" x1="516.5" stroke-width="3" />
 </symbol>
 
 </svg>

@@ -384,6 +384,7 @@ textarea {
   display: block;
   width: 104px;
   height: 104px;
+  margin: 0 auto 30px;
   stroke: #ffffff;
   transition: all .15s ease;
 }
