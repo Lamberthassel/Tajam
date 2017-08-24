@@ -1,7 +1,7 @@
 .container {
   max-width: 940px;
   margin: auto;
-  padding: 4.375% 10px; /* 70px / 1600px */
+  padding: 70px 10px;
 }
 
 .btn {
@@ -1008,8 +1008,12 @@ input.subscribe-form__input {
 }
 
 @media screen and (max-width: 767px) {
+  .container {
+    padding: 25px 10px;
+  }
+
   .feature  {
-        justify-content: center;
+    justify-content: center;
   }
 
   .index-header .container {
