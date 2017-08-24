@@ -903,12 +903,12 @@ input.subscribe-form__input {
   background: rgba(255, 255, 255, 0.5);
   display: inline-flex;
   justify-content: center;
-  transition: all .5s ease;
+  transition: all .15s ease;
 }
 
 .subscribe-form__btn:hover {
   background: rgba(88, 230, 218, 0.75);
-  transition: all .5s ease;
+  transition: all .15s ease;
 }
 
 .subscribe-form__icon {
@@ -919,14 +919,16 @@ input.subscribe-form__input {
 
 .soc__item {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  box-sizing: border-box;
+  width: 34px;
+  height: 34px;
   border: 1px solid #ffffff;
   border-radius: 100%;
   font-size: 0;
   position: relative;
   margin-right: 4px;
-  transition: all .5s ease;
+  overflow: hidden;
+  transition: all .15s ease;
 }
 
 .soc__icon {
@@ -934,17 +936,37 @@ input.subscribe-form__input {
     position: absolute;
     width: 20px;
     height: 20px;
+    z-index: 2;
     top: 6px;
     left: 6px;
     fill: #ffffff;
 }
 
-.soc__item:hover {
-  border: 1px solid #00e0d0;
+.soc__item::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
   background: #00e0d0;
-  transition: all .5s ease;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all .15s ease;
 }
 
+.soc__item:hover {
+  border: 1px solid #00e0d0;
+  transition: all .15s ease;
+}
+
+.soc__item:hover::after {
+  transform: scale(1);
+  color: #ffffff;
+  transition: all .15s ease;
+}
 
 .footer-menu {
   font-weight: 400;
