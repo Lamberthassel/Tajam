@@ -1007,7 +1007,7 @@ textarea {
   margin: auto 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
   .container {
     padding: 35px 10px;
   }
@@ -1018,7 +1018,7 @@ textarea {
 
   .header__container {
     min-height: 60px;
-    padding-top: 10px;
+    padding: 10px;
     align-items: flex-start;
   }
 
@@ -1044,7 +1044,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 970px) {
     .feedback {
       margin-right: 0;
     }
@@ -1056,14 +1056,12 @@ textarea {
     .client__list  {
         justify-content: center;
     }
-}
 
-@media screen and (max-width: 920px) {
-   .footer__col--subscribe {
+    .footer__col--subscribe {
     max-width: none;
     flex-basis: 100%;
    }
- }
+}
 
  @media all and (-ms-high-contrast:none) {
      .overlay, 
