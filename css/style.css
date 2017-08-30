@@ -283,26 +283,26 @@ textarea {
   margin-top: 50px;
 }
 
-.slider {
+.slider-nav {
   margin-top: 50px;
 }
 
-.slider__list {
+.slider-nav__list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.slider__item {
+.slider-nav__item {
   display: inline-block;
   position: relative;
 }
 
-.slider__radio {
+.slider-nav__radio {
   visibility: hidden;
 }
 
-.slider__pointer {
+.slider-nav__pointer {
   display: block;
   position: relative;
   top: 0px;
@@ -313,7 +313,7 @@ textarea {
   border-radius: 100%;
 }
 
-.slider__pointer::before {
+.slider-nav__pointer::before {
   content: "";
   display: block;
   position: absolute;
@@ -325,7 +325,7 @@ textarea {
   transition: all .5s ease-out;
 }
 
-.slider__radio:checked ~ .slider__pointer::before {
+.slider-nav__radio:checked ~ .slider-nav__pointer::before {
   background: #00e0d0;
   transition: all .5s ease-out;
 }
