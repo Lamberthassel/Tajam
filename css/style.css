@@ -860,14 +860,14 @@ textarea {
   margin-bottom: 40px;
 }
 
-.address,
+.adr,
 .tel {
   padding-left: 30px;
   margin-bottom: 10px;
   position: relative;
 }
 
-.address__icon, 
+.adr__icon, 
 .tel__icon {
   display: block;
   position: absolute;
@@ -878,7 +878,7 @@ textarea {
   fill: #ffffff;
 }
 
-.address__icon:hover, 
+.adr__icon:hover, 
 .tel__icon:hover {
   fill: #00e0d0;
 }
