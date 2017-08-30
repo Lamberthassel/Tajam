@@ -733,7 +733,7 @@ textarea {
 }
 
 .feedback__textarea {
-  resize: none;
+  resize: vertical;
 }
 
 .feedback__btn {
