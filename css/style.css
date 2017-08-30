@@ -648,6 +648,15 @@ textarea {
   flex-flow: column nowrap;
 }
 
+.quotes::before {
+  content: "“";
+  display: block;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 63px;
+  font-family: "Playfair Display", "Arial", sans-serif;
+}
+
 .quotes__item {
   display: none;
   flex-flow: column nowrap;
@@ -656,15 +665,6 @@ textarea {
 
 .quotes__item--active {
   display: flex;
-}
-
-.quote-symbol::after {
-  content: "“";
-  display: block;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 63px;
-  font-family: "Playfair Display", "Arial", sans-serif;
 }
 
 .quotes__text {

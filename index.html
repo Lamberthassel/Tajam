@@ -25,11 +25,11 @@
     <div class="intro overlay">
       <header class="header">
         <div class="container header__container">
-          <a class="logo" href=index.html>
+          <a class="logo header__logo" href=index.html>
             <img src="img/logo-small.png" class="logo__img" width="128" height="50" alt="logo">
           </a>
           <nav class="header-menu">
-            <input type="checkbox" id="header-menu__btn" class="header-menu__btn">
+            <input class="header-menu__btn" type="checkbox" id="header-menu__btn">
             <label class="header-menu__label" for="header-menu__btn"></label>
             <ul class="header-menu__list">
               <li class="header-menu__item">
@@ -61,7 +61,7 @@
         <div class="container about__container">
           <section class="promo">
             <article class="promo__item promo__item--active">
-             <h2 class="promo__heading">We Are Awesome Creative Agency one</h2>
+              <h2 class="promo__heading">We Are Awesome Creative Agency one</h2>
               <hr class="promo__divider">
               <p class="promo__text">
                 This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
@@ -73,7 +73,7 @@
               <a class="btn promo__btn" href=#><span>Learn more</span></a>
             </article>
             <article class="promo__item">
-             <h2 class="promo__heading">We Are Awesome Creative Agency two</h2>
+              <h2 class="promo__heading">We Are Awesome Creative Agency two</h2>
               <hr class="promo__divider">
               <p class="promo__text">
                 This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
@@ -85,7 +85,7 @@
               <a class="btn promo__btn" href=#><span>Learn more</span></a>
             </article>
             <article class="promo__item">
-             <h2 class="promo__heading">We Are Awesome Creative Agency three</h2>
+              <h2 class="promo__heading">We Are Awesome Creative Agency three</h2>
               <hr class="promo__divider">
               <p class="promo__text">
                 This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
@@ -97,7 +97,7 @@
               <a class="btn promo__btn" href=#><span>Learn more</span></a>
             </article>
             <article class="promo__item">
-             <h2 class="promo__heading">We Are Awesome Creative Agency for</h2>
+              <h2 class="promo__heading">We Are Awesome Creative Agency for</h2>
               <hr class="promo__divider">
               <p class="promo__text">
                 This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
@@ -109,7 +109,7 @@
               <a class="btn promo__btn" href=#><span>Learn more</span></a>
             </article>
           </section>
-          <div class="slider-nav js">
+          <div class="slider-nav" id="slider-nav">
             <ul class="slider-nav__list">
               <li class="slider-nav__item">
                 <input class="slider-nav__radio" type="radio" name="about-screen" id="screen-1" checked>
@@ -151,13 +151,13 @@
               elit. Class aptent taciti sociosqu ad litora torquent per conubia
               nostra, per inceptos himenaeos.
             </p>
-            <a class="btn" href=#><span>Learn more</span></a>
+            <a class="btn story__button" href=#><span>Learn more</span></a>
           </article>
         </div>
       </section>
       <section class="video overlay">
         <div class="container video__container">
-          <a href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="_blank" class="video-btn">
+          <a class="video-btn" href="https://www.youtube.com/embed/dQw4w9WgXcQ" target="_blank">
             <svg class="video-btn__icon">
               <use xlink:href="#icon--play">
             </svg>
@@ -235,28 +235,28 @@
           <article class="staff">
             <article class="staff__item">
               <div class="staff__photo-wrapper">
-                <img src="img/staff/ucuk.jpg" class="staff__photo" width="220" height="229" alt="Semf Ucuk">
+                <img class="staff__photo" src="img/staff/ucuk.jpg" width="220" height="229" alt="Semf Ucuk">
               </div>
               <span class="staff__name">Semf Ucuk</span>
               <span class="staff__job">CEO &amp; founder</span>
             </article>
             <article class="staff__item">
               <div class="staff__photo-wrapper">
-                <img src="img/staff/dik.jpg" class="staff__photo" width="220" height="229" alt="Dik Adalin">
+                <img class="staff__photo" src="img/staff/dik.jpg" width="220" height="229" alt="Dik Adalin">
               </div>
               <span class="staff__name">Dik Adalin</span>
               <span class="staff__job">Engineering</span>
             </article>
             <article class="staff__item">
               <div class="staff__photo-wrapper">
-                <img src="img/staff/jeng.jpg" class="staff__photo" width="220" height="229" alt="Jeng Kol">
+                <img class="staff__photo" src="img/staff/jeng.jpg" width="220" height="229" alt="Jeng Kol">
               </div>
               <span class="staff__name">Jeng Kol</span>
               <span class="staff__job">Designer</span>
             </article>
             <article class="staff__item">
               <div class="staff__photo-wrapper">
-                <img src="img/staff/pet.jpg" class="staff__photo" width="220" height="229" alt="Pet Romak">
+                <img class="staff__photo" src="img/staff/pet.jpg" width="220" height="229" alt="Pet Romak">
               </div>
               <span class="staff__name">Pet Romak</span>
               <span class="staff__job">Marketing</span>
@@ -346,7 +346,6 @@
         <div class="container testimonials__container">
           <article class="quotes">
             <article class="quotes__item">
-              <div class="quote-symbol"></div>
               <p class="quotes__text">
                 This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
@@ -366,7 +365,6 @@
               </div>
             </article>
             <article class="quotes__item">
-              <div class="quote-symbol"></div>
               <p class="quotes__text">
                 This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
@@ -386,7 +384,6 @@
               </div>
             </article>
           <article class="quotes__item quotes__item--active">
-            <div class="quote-symbol"></div>
             <p class="quotes__text">
               This is Photoshop's version  of Lorem Ipsum.
               Proin gravida nibh vel velit auctor aliquet.
@@ -406,7 +403,6 @@
             </div>
           </article>
           <article class="quotes__item">
-            <div class="quote-symbol"></div>
             <p class="quotes__text">
               This is Photoshop's version  of Lorem Ipsum.
               Proin gravida nibh vel velit auctor aliquet.
@@ -426,7 +422,6 @@
             </div>
           </article>
           <article class="quotes__item">
-            <div class="quote-symbol"></div>
             <p class="quotes__text">
               This is Photoshop's version  of Lorem Ipsum.
               Proin gravida nibh vel velit auctor aliquet.
@@ -452,10 +447,10 @@
           <section class="feedback">
             <h2 class="feedback__title">Give us a good news</h2>
             <form class="feedback__form" id="feedback__form" action="#" method="post">
-              <input class="feedback__input" type="text" name="name" id="name" placeholder="Name" tabindex="1">
-              <input class="feedback__input" type="email" name="email" id="email" placeholder="Email" tabindex="2">
+              <input class="feedback__input" type="text" name="name" id="name" placeholder="Name" tabindex="1" required>
+              <input class="feedback__input" type="email" name="email" id="email" placeholder="Email" tabindex="2" required>
               <input class="feedback__input" type="text" name="subject" id="subject" placeholder="Subject" tabindex="3">
-              <textarea class="feedback__textarea" rows="8" name="message" id="message" placeholder="Your message" tabindex="4"></textarea>
+              <textarea class="feedback__textarea" rows="8" name="message" id="message" placeholder="Your message" tabindex="4" required></textarea>
               <button class="btn feedback__btn" type="submit"><span>Submit</span></button>
             </form>
           </section>
@@ -503,7 +498,7 @@
           <a class="logo footer__logo" href=#>
             <img src="img/logo-small.png" class="logo__img" width="128" height="50" alt="logo">
           </a>
-          <p>
+          <p class="footer__text">
             lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
             sem nibh elit. Duis sed odio sit amet auctror a ornare odio non
             mauris vitae erat in elit
