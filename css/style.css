@@ -1036,7 +1036,7 @@ textarea {
 
   .header-menu {
     width: 100%;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     align-items: center;
     position: absolute;
     top: 60px;
