@@ -26,7 +26,7 @@
   position: relative;
 }
 
-.btn span {
+.btn__label {
   position: relative;
   z-index: 2;
   transition: all .15s ease;
@@ -45,7 +45,7 @@
   transition: all .15s ease;
 }
 
-.btn:hover span {
+.btn:hover .btn__label {
   color: #ffffff;
   transition: all .15s ease;
 }
@@ -279,7 +279,7 @@ textarea {
   margin-bottom: 0;
 }
 
-.promo__btn {
+.btn--promo {
   margin-top: 50px;
 }
 
@@ -736,7 +736,7 @@ textarea {
   resize: vertical;
 }
 
-.feedback__btn {
+.btn--feedback {
   padding: 10px 30px;
 }
 
@@ -895,7 +895,7 @@ textarea {
   margin-right: 10px;
 }
 
-.subscribe-form__btn {
+.btn--subscribe-form {
   border: none;
   outline: none;
   width: 70px;
@@ -906,7 +906,7 @@ textarea {
   transition: all .15s ease;
 }
 
-.subscribe-form__btn:hover {
+.btn--subscribe-form:hover {
   background: rgba(88, 230, 218, 0.75);
   transition: all .15s ease;
 }
