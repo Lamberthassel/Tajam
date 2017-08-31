@@ -22,42 +22,42 @@
         document.body.insertBefore(div, document.body.childNodes[0]);
       }
     </script>
-    <div class="intro overlay">
-      <header class="header">
-        <div class="container header__container">
-          <a class="logo header__logo" href=index.html>
-            <img src="img/logo-small.png" class="logo__img" width="128" height="50" alt="logo">
-          </a>
-          <nav class="header-menu">
-            <input class="header-menu__btn" type="checkbox" id="header-menu__btn">
-            <label class="header-menu__label" for="header-menu__btn"></label>
-            <ul class="header-menu__list">
-              <li class="header-menu__item">
-                <a class="header-menu__link  header-menu__link--active" href=#>Home</a>
-              </li>
-              <li class="header-menu__item">
-                <a class="header-menu__link" href=#>About</a>
-              </li>
-              <li class="header-menu__item">
-                <a class="header-menu__link" href=#>Expertise</a>
-              </li>
-              <li class="header-menu__item">
-                <a class="header-menu__link" href=#>Teams</a>
-              </li>
-              <li class="header-menu__item">
-                  <a class="header-menu__link" href=#>Works</a>
-              </li>
-              <li class="header-menu__item">
-                <a class="header-menu__link" href=#>People say</a>
-              </li>
-              <li class="header-menu__item">
-                <a class="header-menu__link" href=#>Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <section class="about">
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo header__logo" href=index.html>
+          <img src="img/logo-small.png" class="logo__img" width="128" height="50" alt="logo">
+        </a>
+        <input class="header-toggle" type="checkbox" id="header-toggle">
+        <label class="header-toggle__container" for="header-toggle"></label>
+        <nav class="header-menu">
+          <ul class="header-menu__list">
+            <li class="header-menu__item">
+              <a class="header-menu__link  header-menu__link--active" href=#>Home</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>About</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Expertise</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Teams</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Works</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>People say</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href=#>Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about overlay">
         <div class="container about__container">
           <section class="promo">
             <article class="promo__item  promo__item--active">
@@ -131,8 +131,6 @@
           </div>
         </div>
       </section>
-    </div>
-    <main>
       <section class="story">
         <div class="container story__container">
           <div class="logo-large">
