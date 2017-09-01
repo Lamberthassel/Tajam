@@ -936,7 +936,7 @@ textarea {
   width: 20px;
   height: 20px;
   z-index: 2;
-  background-image: url("img/icons/icon_sprite.svg#icon--yt");
+  background-image: url("../img/icons/icon_sprite.svg#icon--yt");
 }
 
 .soc__icon {
