@@ -909,6 +909,7 @@ textarea {
 .subscribe-form__icon {
   width: 25px;
   height: 25px;
+  z-index: 2;
   fill: #000000;
 }
 
