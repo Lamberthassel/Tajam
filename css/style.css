@@ -179,22 +179,23 @@ textarea {
 .header-toggle__icon {
   width: 50px;
   height: 50px;
+  fill: #ffffff;
 }
 
 .header-toggle__icon__closed {
-  opacity: 1;
+  display: block;
 }
 
 .header-toggle__icon__opened {
-  opacity: 0;
+  display: none;
 }
 
 .header-toggle:checked + label .header-toggle__icon__closed {
-  opacity: 0;
+  display: none;
 }
 
 .header-toggle:checked + label .header-toggle__icon__opened {
-  opacity: 1;
+  display: block;
 }
 
 /*.header-toggle__container:before {
