@@ -187,20 +187,14 @@ textarea {
   fill: #ffffff;
 }
 
-.header-toggle__icon__closed {
-  opacity: 1;
+.header-toggle + label {
+  border-radius: 5px;
+  transition: all .15s ease;
 }
 
-.header-toggle__icon__opened {
-  opacity: 0;
-}
-
-.header-toggle:checked + label .header-toggle__icon__closed {
-  opacity: 0;
-}
-
-.header-toggle:checked + label .header-toggle__icon__opened {
-  opacity: 1;
+.header-toggle:checked + label {
+  background: rgba(88, 230, 218, 0.75);
+  transition: all .15s ease;
 }
 
 /*.header-toggle__container:before {
