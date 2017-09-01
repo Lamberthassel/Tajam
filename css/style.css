@@ -878,6 +878,9 @@ textarea {
   fill: #00e0d0;
 }
 
+.tel abbr {
+  text-decoration: none;
+}
 
 .subscribe-form {
   display: flex;
