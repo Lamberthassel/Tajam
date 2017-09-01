@@ -911,6 +911,12 @@ textarea {
   height: 25px;
   z-index: 2;
   fill: #000000;
+  transition: all .15s ease;
+}
+
+.btn--subscribe-form:hover .subscribe-form__icon {
+  fill: #ffffff;
+  transition: all .15s ease;
 }
 
 .soc__item {
