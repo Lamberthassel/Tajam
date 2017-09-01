@@ -924,22 +924,6 @@ textarea {
   margin-right: 4px;
   overflow: hidden;
   transition: all .15s ease;
-<<<<<<< HEAD
-  position: relative;
-}
-
-.soc__item--yt::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 20px;
-  height: 20px;
-  z-index: 2;
-  background-image: url("../img/icons/icon_sprite.svg#icon--yt");
-=======
->>>>>>> parent of d6ca5fe... testing fragment identifier svg sprite icons
 }
 
 .soc__icon {
