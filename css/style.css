@@ -748,13 +748,13 @@ textarea {
 .quotes-nav__dot {
   width: 45px;
   height: 45px;
-  transition: all .5s ease-out;
+  transition: all .15s ease;
 }
 
 .active .quotes-nav__dot {
   width: 70px;
   height: 70px;
-  transition: all .5s ease-out;
+  transition: all .15s ease;
 }
 
 .quotes__userpic {
