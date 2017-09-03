@@ -684,6 +684,13 @@ textarea {
   text-transform: uppercase;
 }
 
+.quotes__userpic-wrapper {
+  display: none;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 10px;
+}
+
 .quotes__name {
   display: block;
   font-weight: 700;
@@ -1145,6 +1152,11 @@ textarea {
   .quotes-nav {
     display: none;
   }
+
+  .quotes__userpic-wrapper {
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 970px) {
