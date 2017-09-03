@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  $('.slider').slick({
-  	autoplay: true,
-  	autoplaySpeed: 5000,
-  	dots: true,
-  	arrows: false
-  });
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    items:1,
+    dotsContainer: '#carousel-custom-dots',
+    autoplay: true
+})
 });

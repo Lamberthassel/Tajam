@@ -3,8 +3,8 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One%7CPlayfair+Display:400,700,900%7CRoboto:100,300,400,900" rel="stylesheet">
     <title>Tajam</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -57,8 +57,8 @@
     <main>
       <section class="about overlay">
         <div class="container about__container">
-          <section class="promo slider">
-            <article class="promo__item  slider__item">
+          <section class="promo owl-carousel">
+            <article class="promo__item ">
               <h2 class="promo__heading">We Are Awesome Creative Agency one</h2>
               <hr class="promo__divider">
               <p class="promo__text">
@@ -70,7 +70,7 @@
               </p>
               <a class="btn btn--promo" href=#><span class="btn__label">Learn more</span></a>
             </article>
-            <article class="promo__item slider__item">
+            <article class="promo__item">
               <h2 class="promo__heading">We Are Awesome Creative Agency two</h2>
               <hr class="promo__divider">
               <p class="promo__text">
@@ -82,7 +82,7 @@
               </p>
               <a class="btn btn--promo" href=#><span class="btn__label">Learn more</span></a>
             </article>
-            <article class="promo__item slider__item">
+            <article class="promo__item">
               <h2 class="promo__heading">We Are Awesome Creative Agency three</h2>
               <hr class="promo__divider">
               <p class="promo__text">
@@ -94,7 +94,7 @@
               </p>
               <a class="btn btn--promo" href=#><span class="btn__label">Learn more</span></a>
             </article>
-            <article class="promo__item slider__item">
+            <article class="promo__item">
               <h2 class="promo__heading">We Are Awesome Creative Agency four</h2>
               <hr class="promo__divider">
               <p class="promo__text">
@@ -107,6 +107,20 @@
               <a class="btn btn--promo" href=#><span class="btn__label">Learn more</span></a>
             </article>
           </section>
+          <ul id="carousel-custom-dots" class="owl-dots"> 
+          <li class="owl-dots__item">
+            <div class="promo__dot"></div>
+          </li>
+          <li class="owl-dots__item">
+            <div class="promo__dot"></div>
+          </li>
+          <li class="owl-dots__item">
+            <div class="promo__dot"></div>
+          </li>
+          <li class="owl-dots__item">
+            <div class="promo__dot"></div>
+          </li>
+        </ul>
         </div>
       </section>
       <section class="story">
@@ -576,7 +590,7 @@
       </div>
     </footer>
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
