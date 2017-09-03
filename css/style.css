@@ -289,18 +289,18 @@ textarea {
   margin-top: 50px;
 }
 
-.owl-dots {
+.promo-nav {
   margin-top: 50px;
   padding: 0;
   list-style: none;
 }
 
-.owl-dots__item {
+.promo-nav__item {
   display: inline-block;
   margin-right: 5px;
 }
 
-.promo__dot {
+.promo-nav__dot {
   display: block;
   position: relative;
   top: 0px;
@@ -311,7 +311,7 @@ textarea {
   border-radius: 100%;
 }
 
-.promo__dot::before {
+.promo-nav__dot::before {
   content: "";
   display: block;
   position: absolute;
@@ -323,7 +323,7 @@ textarea {
   transition: all .5s ease-out;
 }
 
-.active .promo__dot {
+.active .promo-nav__dot {
   background: #00e0d0;
   transition: all .5s ease-out;
 }
@@ -640,10 +640,16 @@ textarea {
 .testimonials {
   background: url("../img/bg/testimonials__bg.jpg") no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 514px;
   text-align: center;
   display: flex;
   flex-flow: column nowrap;
+}
+
+.testimonials__container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .quotes::before {
@@ -656,13 +662,9 @@ textarea {
 }
 
 .quotes__item {
-  display: none;
+  display: flex;
   flex-flow: column nowrap;
   align-items: center;
-}
-
-.quotes__item--active {
-  display: flex;
 }
 
 .quotes__text {
@@ -682,19 +684,6 @@ textarea {
   text-transform: uppercase;
 }
 
-.quotes__userpic-wrapper {
-  width: 70px;
-  height: 70px;
-  margin: 0 auto 10px;
-}
-
-.quotes__userpic {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 100%;
-}
-
 .quotes__name {
   display: block;
   font-weight: 700;
@@ -704,6 +693,68 @@ textarea {
 
 .quotes__job {
   display: block;
+}
+
+.quotes-nav {
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.owl-prev, 
+.owl-next {
+  margin-top: 0px;
+  width: 14px;
+  height: 14px;
+  font-size: 20px;
+  border: solid #ffffff;
+}
+
+.owl-prev {
+  margin-right: 13px;
+  border-width: 0 0 1px 1px;
+  transform: rotate(45deg);
+}
+
+.owl-next {
+  border-width: 1px 1px 0 0;
+  transform: rotate(45deg);
+}
+
+.quotes-nav__dots {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.quotes-nav__item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.quotes-nav__dot {
+  width: 45px;
+  height: 45px;
+  transition: all .5s ease-out;
+}
+
+.active .quotes-nav__dot {
+  width: 70px;
+  height: 70px;
+  transition: all .5s ease-out;
+}
+
+.quotes__userpic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
 }
 
 .contact__container {

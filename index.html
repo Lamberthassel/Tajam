@@ -57,8 +57,8 @@
     <main>
       <section class="about overlay">
         <div class="container about__container">
-          <section class="promo owl-carousel">
-            <article class="promo__item ">
+          <section class="promo owl-carousel owl-carousel--promo">
+            <article class="promo__item">
               <h2 class="promo__heading">We Are Awesome Creative Agency one</h2>
               <hr class="promo__divider">
               <p class="promo__text">
@@ -107,20 +107,20 @@
               <a class="btn btn--promo" href=#><span class="btn__label">Learn more</span></a>
             </article>
           </section>
-          <ul id="carousel-custom-dots" class="owl-dots"> 
-          <li class="owl-dots__item">
-            <div class="promo__dot"></div>
-          </li>
-          <li class="owl-dots__item">
-            <div class="promo__dot"></div>
-          </li>
-          <li class="owl-dots__item">
-            <div class="promo__dot"></div>
-          </li>
-          <li class="owl-dots__item">
-            <div class="promo__dot"></div>
-          </li>
-        </ul>
+          <ul id="promo-dots" class="promo-nav"> 
+            <li class="promo-nav__item">
+              <div class="promo-nav__dot"></div>
+            </li>
+            <li class="promo-nav__item">
+              <div class="promo-nav__dot"></div>
+            </li>
+            <li class="promo-nav__item">
+              <div class="promo-nav__dot"></div>
+            </li>
+           <li class="promo-nav__item">
+              <div class="promo-nav__dot"></div>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="story">
@@ -334,7 +334,7 @@
       </section>
       <section class="testimonials overlay">
         <div class="container testimonials__container">
-          <article class="quotes">
+          <article class="quotes owl-carousel owl-carousel--quotes">
             <article class="quotes__item">
               <p class="quotes__text">
                 This is Photoshop's version  of Lorem Ipsum.
@@ -347,9 +347,6 @@
                 auctor eu in elit.
               </p>
               <div class="quotes__author">
-                <div class="quotes__userpic-wrapper">
-                  <img class="quotes__userpic" src="img/authors/1.jpg" alt="Mary Smith">
-                </div>
                 <span class="quotes__name">Mary Smith</span>
                 <span class="quotes__job">Designer Funnypic</span>
               </div>
@@ -366,14 +363,11 @@
                 auctor eu in elit.
               </p>
               <div class="quotes__author">
-                <div class="quotes__userpic-wrapper">
-                  <img class="quotes__userpic" src="img/authors/2.jpg" alt="John Fanneren">
-                </div>
                 <span class="quotes__name">John Fanneren</span>
                 <span class="quotes__job">Freelancer</span>
               </div>
             </article>
-            <article class="quotes__item  quotes__item--active">
+            <article class="quotes__item">
               <p class="quotes__text">
                 This is Photoshop's version  of Lorem Ipsum.
                 Proin gravida nibh vel velit auctor aliquet.
@@ -385,9 +379,6 @@
                 auctor eu in elit.
               </p>
               <div class="quotes__author">
-                <div class="quotes__userpic-wrapper">
-                  <img class="quotes__userpic" src="img/authors/3.jpg" alt="Jane Galadriel">
-                </div>
                 <span class="quotes__name">Jane Galadriel</span>
                 <span class="quotes__job">CEO Tengkurep</span>
               </div>
@@ -404,9 +395,6 @@
                 auctor eu in elit.
               </p>
               <div class="quotes__author">
-                <div class="quotes__userpic-wrapper">
-                  <img class="quotes__userpic" src  ="img/authors/4.jpg" alt="Holly Campbell">
-                </div>
                 <span class="quotes__name">Holly Campbell</span>
                 <span class="quotes__job">CEO Postdesign</span>
               </div>
@@ -423,14 +411,40 @@
                 auctor eu in elit.
               </p>
               <div class="quotes__author">
-                <div class="quotes__userpic-wrapper">
-                  <img class="quotes__userpic" src="img/authors/5.jpg" alt="Dennis Willson">
-                </div>
                 <span class="quotes__name">Dennis Willson</span>
                 <span class="quotes__job">SEO Engineer Webfoxes</span>
               </div>
             </article>
           </article>
+          <div id="quotes-arrows" class="quotes-nav">
+          <ul id="quotes-dots" class="quotes-nav__dots"> 
+            <li class="quotes-nav__item">
+              <div class="quotes-nav__dot">
+                <img class="quotes__userpic" src="img/authors/1.jpg" alt="Mary Smith">
+              </div>
+            </li>
+            <li class="quotes-nav__item">
+              <div class="quotes-nav__dot">
+                <img class="quotes__userpic" src="img/authors/2.jpg" alt="John Fanneren">
+              </div>
+            </li>
+            <li class="quotes-nav__item">
+              <div class="quotes-nav__dot">
+                <img class="quotes__userpic" src="img/authors/3.jpg" alt="Jane Galadriel">
+              </div>
+            </li>
+            <li class="quotes-nav__item">
+              <div class="quotes-nav__dot">
+                <img class="quotes__userpic" src="img/authors/4.jpg" alt="Holly Campbell">
+              </div>
+            </li>
+            <li class="quotes-nav__item">
+              <div class="quotes-nav__dot">
+                <img class="quotes__userpic" src="img/authors/5.jpg" alt="Dennis Willson">
+              </div>
+            </li>
+          </ul>
+          </div>
         </div>
       </section>
       <div class="contact">
