@@ -1141,6 +1141,10 @@ textarea {
   .header-menu__link {
     padding:10px;
   }
+
+  .quotes-nav {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 970px) {
