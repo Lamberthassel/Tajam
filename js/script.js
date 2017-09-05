@@ -1,3 +1,5 @@
+//Owl carousel customizing
+
 $(document).ready(function(){
   $('.owl-carousel--promo').owlCarousel({
     loop:true,
@@ -23,13 +25,29 @@ $(document).ready(function(){
 });
 
 
+
+//Scroll header events
+
 function yScroll(){
 	var header = document.querySelector("#header");
 	var yPos = window.pageYOffset;
 	if(yPos > 630){
-		header.style.background = "rgba(0,0,0,.25)";
+		header.style.background = "rgba(0,0,0,.3)";
 	} else {
 		header.style.background = "none";
 	}
 }
 window.addEventListener("scroll", yScroll);
+
+
+
+//Smooth anchor link navigation
+
+$(document).ready(function(){
+    $("#header-menu__list").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
