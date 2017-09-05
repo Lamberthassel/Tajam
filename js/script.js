@@ -21,3 +21,15 @@ $(document).ready(function(){
     }}
   })
 });
+
+
+function yScroll(){
+	var header = document.querySelector("#header");
+	var yPos = window.pageYOffset;
+	if(yPos > 630){
+		header.style.background = "rgba(0,0,0,.25)";
+	} else {
+		header.style.background = "none";
+	}
+}
+window.addEventListener("scroll", yScroll);
