@@ -703,6 +703,7 @@ textarea {
 }
 
 .quotes-nav {
+  min-height: 70px;
   margin-top: 50px;
   padding: 0;
   list-style: none;
