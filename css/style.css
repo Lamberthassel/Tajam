@@ -309,6 +309,7 @@ textarea {
   height: 8px;
   border: 1px solid #ffffff;
   border-radius: 100%;
+  cursor: pointer;
 }
 
 .promo-nav__dot::before {
@@ -719,6 +720,7 @@ textarea {
   height: 14px;
   font-size: 20px;
   border: solid #ffffff;
+  cursor: pointer;
 }
 
 .owl-prev {
@@ -749,7 +751,34 @@ textarea {
 .quotes-nav__dot {
   width: 45px;
   height: 45px;
+  border-radius: 100%;
   transition: all .15s ease;
+  cursor: pointer;
+}
+
+.quotes-nav__dot--1 {
+  background: url("../img/authors/1.jpg");
+  background-size: 100%;
+}
+
+.quotes-nav__dot--2 {
+  background: url("../img/authors/2.jpg");
+  background-size: 100%;
+}
+
+.quotes-nav__dot--3 {
+  background: url("../img/authors/3.jpg");
+  background-size: 100%;
+}
+
+.quotes-nav__dot--4 {
+  background: url("../img/authors/4.jpg");
+  background-size: 100%;
+}
+
+.quotes-nav__dot--5 {
+  background: url("../img/authors/5.jpg");
+  background-size: 100%;
 }
 
 .active .quotes-nav__dot {
