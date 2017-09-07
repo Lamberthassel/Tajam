@@ -753,32 +753,28 @@ textarea {
   height: 45px;
   border-radius: 100%;
   transition: all .15s ease;
+  background-size: 100%;
   cursor: pointer;
 }
 
 .quotes-nav__dot--1 {
-  background: url("../img/authors/1.jpg");
-  background-size: 100%;
+  background-image: url("../img/authors/1.jpg");
 }
 
 .quotes-nav__dot--2 {
-  background: url("../img/authors/2.jpg");
-  background-size: 100%;
+  background-image: url("../img/authors/2.jpg");
 }
 
 .quotes-nav__dot--3 {
-  background: url("../img/authors/3.jpg");
-  background-size: 100%;
+  background-image: url("../img/authors/3.jpg");
 }
 
 .quotes-nav__dot--4 {
-  background: url("../img/authors/4.jpg");
-  background-size: 100%;
+  background-image: url("../img/authors/4.jpg");
 }
 
 .quotes-nav__dot--5 {
-  background: url("../img/authors/5.jpg");
-  background-size: 100%;
+  background-image: url("../img/authors/5.jpg");
 }
 
 .active .quotes-nav__dot {
