@@ -146,8 +146,7 @@ textarea {
 }
 
 .header__container {
-  min-height: 80px;
-  padding: 0 10px;
+  padding: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -1110,22 +1109,15 @@ textarea {
 
   .header {
     position: absolute;
-    background: transparent;
   }
 
   .header__container {
-    min-height: 50px;
     padding: 10px;
-    align-items: flex-start;
-    position: relative;
   }
 
   .header-toggle__container {
     display: block;
    }
-
-  .header-toggle__container ~ .header-menu{
-  }
 
   .header-toggle:checked + label ~ .header-menu{
     right: 0;
@@ -1133,13 +1125,14 @@ textarea {
 
   .header-menu {
     width: 100%;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 70px);
+    box-sizing: border-box;
+    padding-bottom: 50px;
     align-items: center;
     position: absolute;
-    top: 60px;
+    top: 70px;
     right: 100vw;
     z-index: 100;
-    background: linear-gradient(0deg, rgba(9,5,47,.85) 0%, rgba(49,29,94,.85) 100%);
     transition: all .15s ease;
     font-size: 4vh;
     background: url("../img/bg/about__bg.jpg") no-repeat;
@@ -1161,14 +1154,14 @@ textarea {
 
   .header-menu__list {
     height: 100%;
-    flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
   }
 
-  .header-menu__item {
-    padding: 0;
-    justify-content: flex-end;
+  @media screen and (min-height: 430px) {
+    .header-menu__list {
+      flex-flow: column nowrap;
+    }
   }
 
   .header-menu__link {
@@ -1181,8 +1174,7 @@ textarea {
 
   .quotes__userpic-wrapper {
     display: block;
-  }
-
+  } 
 }
 
 @media screen and (max-width: 970px) {
