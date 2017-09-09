@@ -249,12 +249,12 @@ textarea {
 }
 
 .promo {
-  margin-top: 100px;
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-end;
   justify-content: center;
   max-width: 780px;
+  margin: 100px auto auto auto;
 }
 
 .promo__item {
@@ -703,7 +703,7 @@ textarea {
 }
 
 .quotes-nav {
-  min-height: 70px;
+  height: 70px;
   margin-top: 50px;
   padding: 0;
   list-style: none;
